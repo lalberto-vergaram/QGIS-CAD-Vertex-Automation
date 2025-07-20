@@ -98,8 +98,6 @@ def procesar_archivo_de_datos(ruta_archivo):
         df_final = df_base.rename(columns=mapeo_nombres)
         orden_final = ['Nombre del sitio', 'Vértice', 'UTM E', 'UTM N', 'Huso']
         df_final = df_final[orden_final]
-
-        df_final = df_final.sort_values(by='Nombre del sitio', ascending=True, ignore_index=True)
         
         print("Datos procesados y ordenados.")
 
