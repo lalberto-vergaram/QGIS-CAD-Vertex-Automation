@@ -19,6 +19,13 @@ Se desarrolló una solución integral que consta de dos componentes principales:
 
 ![Resultado Final](resultado_ejemplo/resultado_final.png)
 
+### Flujo de Trabajo
+1.  **Asignación de Nombres:** El modelo une espacialmente los textos a su polígono más cercano.
+2.  **Extracción de Vértices:** Se extraen todos los vértices de cada polígono.
+3.  **Limpieza de Duplicados:** Se eliminan los vértices de cierre duplicados usando un ID único.
+4.  **Cálculo de Coordenadas y Atributos:** Se añaden las coordenadas X/Y y un ID de vértice (V1, V2...).
+5.  **Generación de Reporte:** El script de Python toma estos datos, los limpia, reordena y aplica un formato profesional en Excel.
+
 ### Habilidades y Tecnologías Demostradas
 * **Análisis Geoespacial Avanzado (QGIS):**
     * **Uniones Espaciales:** Asignación de atributos de texto a polígonos por cercanía (`Join attributes by nearest`).
@@ -34,9 +41,5 @@ Se desarrolló una solución integral que consta de dos componentes principales:
 * **Interoperabilidad CAD-GIS:**
     * Manejo y solución de problemas en la importación de formatos DWG/DXF a un entorno GIS.
 
-### Flujo de Trabajo
-1.  **Asignación de Nombres:** El modelo une espacialmente los textos a su polígono más cercano.
-2.  **Extracción de Vértices:** Se extraen todos los vértices de cada polígono.
-3.  **Limpieza de Duplicados:** Se eliminan los vértices de cierre duplicados usando un ID único.
-4.  **Cálculo de Coordenadas y Atributos:** Se añaden las coordenadas X/Y y un ID de vértice (V1, V2...).
-5.  **Generación de Reporte:** El script de Python toma estos datos, los limpia, reordena y aplica un formato profesional en Excel.
+Gracias por revisar este proyecto. Siempre estoy abierto a discutir nuevas ideas, colaboraciones o desafíos interesantes en el mundo de la tecnología geoespacial.
+La mejor forma de contactarme es a través de mi perfil de [LinkedIn.](https://www.linkedin.com/in/luis-vergara-morales)
