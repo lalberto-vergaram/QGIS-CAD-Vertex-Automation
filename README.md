@@ -1,6 +1,6 @@
 # QGIS-CAD-Vertex-Automation
-### Flujo de trabajo automatizado en QGIS y Python para extraer, limpiar y dar formato a datos de vértíces de polígonos desde archivos CAD en un reporte Excel
-Automated workflow in QGIS and Python to extract, clean, and format polygon vertex data from CAD files into a professional Excel report.
+### Flujo de trabajo automatizado en QGIS y Python para extraer, limpiar y dar formato a datos de vértíces de polígonos desde archivos CAD en un reporte Excel.
+Automated workflow in QGIS and Python to extract, clean, and format polygon vertex data from CAD files into a Excel report.
 
 # Extracción y Automatización de Vértices de Polígonos (CAD a Excel)
 
@@ -9,7 +9,7 @@ Este proyecto demuestra un flujo de trabajo automatizado para solucionar un prob
 El proceso completo, desde la importación de datos brutos hasta la generación del reporte final, se ha encapsulado en un modelo de geoprocesamiento en QGIS y un script de post-procesamiento en Python.
 
 ### El Problema
-Un cliente necesitaba una lista precisa de las coordenadas de los vértices para cientos de polígonos definidos en un archivo DWG, donde los nombres de cada polígono estaban asignados como textos separados y no como atributos directos. El proceso manual era propenso a errores y consumía una cantidad de tiempo inviable.
+Un cliente necesitaba una lista precisa de las coordenadas de los vértices para cientos de polígonos definidos en un archivo DWG a una tabla excel en formato establecido por su empresa, donde los nombres de cada polígono estaban asignados como textos separados y no como atributos directos. El proceso manual era propenso a errores y consumía una cantidad de tiempo inviable.
 
 ### La Solución Automatizada
 Se desarrolló una solución integral que consta de dos componentes principales:
